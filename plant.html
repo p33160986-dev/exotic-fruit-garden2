@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Information</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="plant-info">
+    <img id="plantImage" src="" alt="Plant Image">
+    <h2 id="plantName"></h2>
+    <p id="plantDescription"></p>
+
+    <button id="listenBtn">🔊 Listen</button>
+    <button onclick="window.location.href='index.html'">⬅ Back</button>
+  </div>
+
+  <!-- Add this line first -->
+  <script src="https://code.responsivevoice.org/responsivevoice.js?key=YOUR_KEY"></script>
+
+  <!-- Your existing script -->
+  <script src="script.js"></script>
+</body>
+</html>
